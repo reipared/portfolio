@@ -511,6 +511,16 @@ section {
 	}
 }
 
+// Contact section
+
+.contact-content-container {
+	display: flex;
+	padding-top: 3.5rem;
+	.left-contact {
+		flex: 2;
+	}
+}
+
 // Independent components
 .btn-container {
 	display: flex;
