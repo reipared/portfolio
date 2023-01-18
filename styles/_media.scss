@@ -78,16 +78,28 @@
 			margin-top: 2.5rem;
 		}
 	}
-	.contact-content-con .right-contact .i-c-2 {
+	.contact-content-con .right-contact .input-control-2 {
 		flex-direction: column;
 	}
-	.contact-content-con .right-contact .i-c-2:last-child {
+	.contact-content-con .right-contact .input-control-2 :last-child {
 		margin-left: 0;
 		margin-top: 1.5rem;
 	}
 
 	.section {
 		padding: 2rem 2.5rem !important;
+	}
+
+	.main-title {
+		h2 {
+			font-size: 2rem;
+			span {
+				font-size: 2.5rem;
+			}
+			.bg-text {
+				font-size: 3rem;
+			}
+		}
 	}
 
 	.controls {
@@ -103,4 +115,7 @@
 			margin: 1rem 0.3rem;
 		}
 	}
+}
+
+@media screen and (max-width: 767px) {
 }

@@ -184,7 +184,7 @@ section {
 .header-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  height: 100%;
+  min-height: 100vh;
 }
 .header-content .left-header {
   display: flex;
@@ -782,15 +782,24 @@ section {
     margin-left: 0;
     margin-top: 2.5rem;
   }
-  .contact-content-con .right-contact .i-c-2 {
+  .contact-content-con .right-contact .input-control-2 {
     flex-direction: column;
   }
-  .contact-content-con .right-contact .i-c-2:last-child {
+  .contact-content-con .right-contact .input-control-2 :last-child {
     margin-left: 0;
     margin-top: 1.5rem;
   }
   .section {
     padding: 2rem 2.5rem !important;
+  }
+  .main-title h2 {
+    font-size: 2rem;
+  }
+  .main-title h2 span {
+    font-size: 2.5rem;
+  }
+  .main-title h2 .bg-text {
+    font-size: 3rem;
   }
   .controls {
     top: auto;
