@@ -1,2 +1,3 @@
-# portfolio
-Project to create a website
+# Responsive Portfolio Website
+
+This project is a responsive portfolio website that showcases the work and skills of a web developer. It features a modern design with a dark theme, interactive navigation controls, and a light/dark mode toggle. The website includes sections for a header, about, skills, timeline, portfolio, blogs, and contact information. Users can navigate through different sections by clicking on the control buttons, and they can switch between light and dark themes with the theme toggle button. The portfolio website is built using HTML, CSS, and JavaScript to provide an engaging and user-friendly experience.
